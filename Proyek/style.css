@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+header {
+    display: inline;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 700;
+    float: left;
+    font-family: cursive;
+    color: #39A2DB;
+}
+
+.bar {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 90px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FDFDFD;
+    z-index: 1;
+    border-bottom: 3px solid #39A2DB;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #334257 ;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 12px 0px 12px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img {
+    width: 500px;
+    margin-top: 20px;
+}
+
+section {
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.profile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.profile .teks {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    font-weight: inherit;
+    color: #334257;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #39A2DB;
+    width: 100%;
+    line-height: 50px;
+}
+
+.profile .deskripsi {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #39A2DB;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tombol {
+    background: #334257;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 13px 18px 13px 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol:hover {
+    background: #DA0037;
+    text-decoration: none;
+}
+
+a.click {
+    background: #DA0037;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 13px 18px 13px 18px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.click:hover {
+    background: #334257;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.middle {
+    text-align: center;
+    width: 100%;
+}
+
+.daftar-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-fitur {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.tag-fitur img {
+    width: 80%;
+    border: 3px solid #334257;
+    border-radius: 50%;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #39A2DB;
+}
+
+.tag-fitur p {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    color: #334257;
+}
+
+.tag-about {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.tag-about img {
+    width: 70%;
+    border: 3px solid #334257;
+    border-radius: 70px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contact {
+    background: #EFEFEF ;
+    padding: 40px 0px 40px 0px;
+}
+
+.footer-profile {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-list {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.footer-list h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    color: #39A2DB;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-list p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #334257;
+}
+
+.footer-list img {
+    width: 20%;
+    border-radius: 70px;
+}
+
+.copyright {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width :992px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .logo a {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .bar {
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .bar ul {
+        text-align: center;
+        margin: auto;
+    }
+
+    .bar li {
+        float: none;
+        display: inline-block;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .tag-fitur {
+        width: 40%;
+        margin: auto;
+    }
+
+    .tag-fitur img {
+        width: 100%;
+        display: block;
+    }
+
+    .tag-about {
+        width: 80%;
+    }
+
+    .footer-list {
+        width: 80%;
+        display: block;
+    }
+}
